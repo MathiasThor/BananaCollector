@@ -2,8 +2,8 @@
 An agent that navigate and collect bananas in a large, square world.
 
 Quick Start: 
-- ```bash source activate drlnd ```
-- ```bash jupyter notebook ```
+- ```source activate drlnd ```
+- ```jupyter notebook ```
 
 ## Dependencies
 
