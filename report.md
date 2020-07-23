@@ -4,7 +4,7 @@
 The work is about training an agent using deep reinforcement learning to navigate and collect bananas in a large, square world. A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the agent's goal is to collect as many yellow bananas as possible while avoiding blue bananas.
 
 ## Learning algorithm
-For the banana collecting task, a double dueling deep Q-learning algorithm using fixed Q-target and experience replay was used. The algorithm is implemented in three files: `main.ipynb`, `banana_agent.py`, and `network.py`, which are all explained the following. Note that all learning hyperparameters are placed at the end of this section.
+For the banana collecting task, a double dueling deep Q-learning algorithm using fixed Q-target and experience replay was used. The algorithm is implemented in three files: `main.ipynb`, `banana_agent.py`, and `network.py`, which are all explained the following. Note that all learning hyperparameters are placed at the end of this section and that the source code is on the DQL implementation from Udacity's Deep Reinforcement Learning course.
 
 ### The main loop (`main.ipynb`)
 `main.ipynb` implements the unity banana collector environment, an agent, and a deep q-learning loop. In this loop, the agent, implemented in `banana_agent.py`, is used to take actions and update the deep Q-network implemented in `network.py`. The loop makes use of the environment to collect rewards and observations and restart the simulation when necessary. Finally, the scores are collected, which can be used for documentation and feedback to the user.
