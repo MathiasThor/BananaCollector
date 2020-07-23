@@ -78,7 +78,8 @@ The dueling deep Q-network with a dense structure and sparse structure was teste
 
 The results from the experiments are shown in the following reward per episode plots. The plot shows that both network structures can achieve an average reward (over 100 episodes) of at least +13 (see dashed green line). The dense network structure archives this within ~420 episodes while the sparse network only needs ~380 episodes. This is presumably due to the fact that fewer weights need to be learned in the spare network. The sparse network is furthermore able to achieve a higher converged score than the dense network.
 
-![Plot of the score per episode for the dense (blue) and sparce network (orange). The thick darker lines is a rolling mean of the average score per episode. The thin lighter high frequent line is without rolling mean.](https://github.com/MathiasThor/BananaCollector/blob/master/data/score_DQN.png)
+![plot](https://github.com/MathiasThor/BananaCollector/blob/master/data/score_DQN.png)
+*Plot of the score per episode for the dense (blue) and sparce network (orange). The thick darker lines is a rolling mean of the average score per episode. The thin lighter high frequent line is without rolling mean.*
 
 ## Future work
 In future work, it would be interesting to implement prioritized experience replay as well as fine-tuning the hyperparameters further. It would also be interesting to learn directly from pixels and use convolutional layers in the deep Q-network.
