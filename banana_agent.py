@@ -2,7 +2,7 @@ import numpy as np
 import random
 from collections import namedtuple, deque
 
-from network import dense_DDQN as DQN # import either dense_DDQN or sparse_DDQN
+from network import sparse_DDQN as DQN # import either dense_DDQN or sparse_DDQN
 
 import torch
 import torch.nn.functional as F
