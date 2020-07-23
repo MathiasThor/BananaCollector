@@ -1,11 +1,12 @@
 [//]: # (Image References)
 
-[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
+[image1]: https://github.com/MathiasThor/BananaCollector/blob/master/data/sparse_network.gif "Trained Agent"
 
 # BananaCollector
 An agent that navigate and collect bananas in a large, square world.
 
 ![Trained Agent][image1]
+*Trained banana collector agent w. a sparse Dueling Double Deep Q-Network*
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
 
